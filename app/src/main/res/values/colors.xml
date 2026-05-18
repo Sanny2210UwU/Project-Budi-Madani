@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Modern Color Palette -->
+    <color name="primaryColor">#00695C</color> <!-- Teal 800 -->
+    <color name="primaryLightColor">#439889</color>
+    <color name="primaryDarkColor">#003D33</color>
+    <color name="secondaryColor">#009688</color> <!-- Teal 500 -->
+    <color name="secondaryLightColor">#52C7B8</color>
+    <color name="secondaryDarkColor">#00675B</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#FFFFFF</color>
+    
+    <color name="backgroundColor">#F5F5F6</color>
+    <color name="cardBackground">#FFFFFF</color>
+    
+    <color name="positive_green">#388E3C</color>
+    <color name="negative_red">#D32F2F</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_secondary">#757575</color>
+</resources>

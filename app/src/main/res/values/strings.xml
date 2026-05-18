@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Petrol Cost</string>
+    <string name="title_home">Smart Petrol Cost Calculator</string>
+    
+    <string name="nav_home">Home</string>
+    <string name="nav_about">About</string>
+    
+    <!-- Home Fragment Strings -->
+    <string name="hint_petrol_type">Petrol Type</string>
+    <string name="hint_petrol_price">Petrol price per liter (RM)</string>
+    <string name="hint_fuel_usage">Fuel usage (in liters)</string>
+    <string name="label_budi_madani_eligibility">BUDI MADANI Eligible</string>
+    <string name="btn_calculate">Calculate</string>
+    
+    <string name="result_total_cost">Total Petrol Cost</string>
+    <string name="result_budi_rebate">BUDI Rebate</string>
+    <string name="result_total_saving">Total Saving</string>
+    
+    <string name="error_required">This field is required</string>
+    <string name="error_invalid_number">Please enter a valid number</string>
+
+    <!-- About Fragment Strings -->
+    <string name="about_author_name">Ahmad AfIf Sani Bin Ahmad Zuki</string>
+    <string name="about_author_matric">2025159697</string>
+    <string name="about_author_course">CS251</string>
+    
+    <string name="label_author_info">Author Information</string>
+    <string name="label_copyright">© 2026 Ahmad AfIf Sani Bin Ahmad Zuki. All Rights Reserved.</string>
+    <string name="label_github">GitHub Repository</string>
+    <string name="github_url">https://github.com/Sanny2210UwU/ProjectBudiMadani</string>
+    
+</resources>
