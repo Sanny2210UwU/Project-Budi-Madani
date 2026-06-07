@@ -32,6 +32,21 @@ public class HomeFragment extends Fragment {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_dropdown_item_1line, petrolTypes);
         binding.actPetrolType.setAdapter(adapter);
 
+        // Disable Budi Madani switch initially
+        binding.swBudiMadani.setEnabled(false);
+        binding.swBudiMadani.setChecked(false);
+
+        // Enable switch only if RON95 is selected
+        binding.actPetrolType.setOnItemClickListener((parent, view1, position, id) -> {
+            String selectedType = (String) parent.getItemAtPosition(position);
+            if ("RON95".equals(selectedType)) {
+                binding.swBudiMadani.setEnabled(true);
+            } else {
+                binding.swBudiMadani.setEnabled(false);
+                binding.swBudiMadani.setChecked(false);
+            }
+        });
+
         binding.btnCalculate.setOnClickListener(v -> calculateCost());
     }
 

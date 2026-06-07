@@ -109,8 +109,8 @@
             android:layout_marginTop="32dp"
             android:layout_marginBottom="24dp"
             android:visibility="gone"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -120,55 +120,55 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/primaryLightColor"
+                android:background="@color/primaryColor"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="24dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/result_total_cost"
-                    android:textColor="@color/white"
+                    android:textColor="#E0E0E0"
                     android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/tv_total_cost"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="12dp"
+                    android:layout_marginBottom="16dp"
                     android:text="RM 0.00"
                     android:textColor="@color/white"
-                    android:textSize="22sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/result_budi_rebate"
-                    android:textColor="@color/white"
+                    android:textColor="#E0E0E0"
                     android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/tv_budi_rebate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="12dp"
+                    android:layout_marginBottom="16dp"
                     android:text="RM 0.00"
-                    android:textColor="@color/white"
-                    android:textSize="22sp"
+                    android:textColor="@color/secondaryColor"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:layout_marginBottom="12dp"
-                    android:background="#66FFFFFF" />
+                    android:layout_marginBottom="16dp"
+                    android:background="#40FFFFFF" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/result_total_saving"
-                    android:textColor="@color/white"
+                    android:textColor="#E0E0E0"
                     android:textSize="14sp" />
 
                 <TextView
@@ -176,8 +176,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="RM 0.00"
-                    android:textColor="@color/white"
-                    android:textSize="28sp"
+                    android:textColor="@color/positive_green"
+                    android:textSize="32sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>

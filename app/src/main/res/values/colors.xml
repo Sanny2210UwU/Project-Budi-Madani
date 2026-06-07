@@ -3,21 +3,25 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <!-- Modern Color Palette -->
-    <color name="primaryColor">#00695C</color> <!-- Teal 800 -->
-    <color name="primaryLightColor">#439889</color>
-    <color name="primaryDarkColor">#003D33</color>
-    <color name="secondaryColor">#009688</color> <!-- Teal 500 -->
-    <color name="secondaryLightColor">#52C7B8</color>
-    <color name="secondaryDarkColor">#00675B</color>
+    <!-- Premium Color Palette -->
+    <color name="primaryColor">#283593</color> <!-- Indigo 800 -->
+    <color name="primaryContainer">#E8EAF6</color>
+    <color name="onPrimaryContainer">#1A237E</color>
+    <color name="primaryDarkColor">#1A237E</color>
+    
+    <color name="secondaryColor">#00B0FF</color> <!-- Light Blue A400 -->
+    <color name="secondaryContainer">#E1F5FE</color>
+    <color name="onSecondaryContainer">#01579B</color>
+    <color name="secondaryDarkColor">#0081CB</color>
+    
     <color name="primaryTextColor">#FFFFFF</color>
     <color name="secondaryTextColor">#FFFFFF</color>
     
-    <color name="backgroundColor">#F5F5F6</color>
+    <color name="backgroundColor">#F8F9FA</color>
     <color name="cardBackground">#FFFFFF</color>
     
-    <color name="positive_green">#388E3C</color>
-    <color name="negative_red">#D32F2F</color>
-    <color name="text_dark">#212121</color>
-    <color name="text_secondary">#757575</color>
+    <color name="positive_green">#00C853</color>
+    <color name="negative_red">#D50000</color>
+    <color name="text_dark">#202124</color>
+    <color name="text_secondary">#5F6368</color>
 </resources>

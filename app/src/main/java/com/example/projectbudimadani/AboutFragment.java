@@ -1,7 +1,6 @@
 package com.example.projectbudimadani;
 
 import android.os.Bundle;
-import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,8 +26,12 @@ public class AboutFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         
-        // Ensure links are clickable
-        binding.tvGithubUrl.setMovementMethod(LinkMovementMethod.getInstance());
+        binding.btnGithub.setOnClickListener(v -> {
+            String url = getString(R.string.github_url);
+            android.content.Intent intent = new android.content.Intent(android.content.Intent.ACTION_VIEW);
+            intent.setData(android.net.Uri.parse(url));
+            startActivity(intent);
+        });
     }
 
     @Override
